@@ -1,14 +1,12 @@
-package kodlama;
+package day3Homework;
 
-public class Instructor  extends User{
+public class Student extends User {
 	private String firstName;
 	private String lastName;
-	private String tax;
-	public Instructor(long id, String email, String firstName, String lastName, String tax) {
+	public Student(long id, String email, String firstName, String lastName) {
 		super(id, email);
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.tax = tax;
 	}
 	public String getFirstName() {
 		return firstName;
@@ -22,12 +20,8 @@ public class Instructor  extends User{
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public String getTax() {
-		return tax;
-	}
-	public void setTax(String tax) {
-		this.tax = tax;
-	}
+	
+	
 	
 	
 }

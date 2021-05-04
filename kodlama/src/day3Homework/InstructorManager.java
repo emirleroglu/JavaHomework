@@ -1,4 +1,4 @@
-package kodlama;
+package day3Homework;
 
 public class InstructorManager extends UserManager{
 	public void addInstructor(Instructor instructor) {

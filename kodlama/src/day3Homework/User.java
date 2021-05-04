@@ -1,4 +1,4 @@
-package kodlama;
+package day3Homework;
 
 public class User {
 	private long id;
